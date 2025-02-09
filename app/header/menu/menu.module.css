@@ -1,0 +1,220 @@
+.container {
+    width: 100%;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content {
+    height: 64px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    width: 139.54px;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .logo img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .nav_bar {
+    width: 1071px;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .bar_content {
+    width: 760px;
+    height: 27px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+  }
+  
+  .bar_btn {
+    width: 171px;
+    height: 54px;
+    background: #4f1d85;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .bar_btn:hover {
+    background: #51027b;
+  }
+  
+  .content_link {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content_Services {
+    color: #d54699;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .btn_logo {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .btn_logo img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .btn_test {
+    width: 101px;
+    height: 32px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+  }
+  
+  .fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    display: none; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1000;
+  }
+  
+  .fullscreen.active {
+    display: flex; 
+  }
+  
+  .menu_options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .menu_link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .close_btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .Bar_icon {
+    display: none;
+  }
+  
+  @media (max-width: 1260px) {
+    .Bar_icon {
+      display: block;
+      color: white;
+      font-size: 35px;
+    }
+  
+    .fullscreen {
+      display: flex;
+    }
+  
+    .fullscreen.active {
+      background-color: white;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .menu_options {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      color: black;
+    }
+  
+    .menu_link {
+      font-size: 24px;
+      text-decoration: none;
+      color: black;
+      font-family: "Poppins", sans-serif;
+    }
+  
+    .content_Services {
+      display: none;
+    }
+  
+    .content_link {
+      display: none;
+    }
+  
+    .bar_btn {
+      display: none;
+    }
+  
+    .nav_bar {
+      width: fit-content;
+  
+    }
+    .bar_content {
+      width: fit-content;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .logo {
+      width: 80px;
+    }
+  
+    .content {
+      height: 38px;
+    }
+  
+    .nav_bar {
+      height: 38px;
+    }
+  }
+  
