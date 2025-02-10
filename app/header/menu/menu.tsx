@@ -43,7 +43,7 @@ const Menu: FC = () => {
             <Link className={style["content_link"]} href={""}>
               Contact Us
             </Link>
-            {/* Hamburger Icon */}
+            {}
             <Link
               className={style["Bar_icon"]}
               href={""}
@@ -63,7 +63,7 @@ const Menu: FC = () => {
         </div>
       </div>
 
-      {/* Fullscreen Menu */}
+      {}
       {isMenuOpen && (
         <div className={style["fullscreen"]}>
           <button
