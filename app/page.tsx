@@ -5,6 +5,7 @@ import Main from "./company/main";
 import Services from "./ourServices/services";
 import BodyTitle from "./bodyTitle/component";
 import Technologies from "./ourTechnologies/component";
+import Process from "./processesSection/process";
 
 export default function Home() {
   return (
@@ -13,7 +14,8 @@ export default function Home() {
       <Main />
       <Services />
       <BodyTitle />
-      <Technologies/>
+      <Technologies />
+      <Process /> 
     </div>
   );
 }
