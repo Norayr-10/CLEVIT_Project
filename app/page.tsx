@@ -4,6 +4,7 @@ import Header from "./header/head";
 import Main from "./company/main";
 import Services from "./ourServices/services";
 import BodyTitle from "./bodyTitle/component";
+import Technologies from "./ourTechnologies/component";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Main />
       <Services />
       <BodyTitle />
+      <Technologies/>
     </div>
   );
 }

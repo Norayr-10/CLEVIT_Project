@@ -1,6 +1,14 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.mako {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row: 3;
+  justify-items: center;
+  gap: 10px;
 }
