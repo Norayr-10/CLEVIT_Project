@@ -6,6 +6,7 @@ import Services from "./ourServices/services";
 import BodyTitle from "./bodyTitle/component";
 import Technologies from "./ourTechnologies/component";
 import Process from "./processesSection/process";
+import Industries from "./industries/industries";
 
 export default function Home() {
   return (
@@ -15,7 +16,8 @@ export default function Home() {
       <Services />
       <BodyTitle />
       <Technologies />
-      <Process /> 
+      <Process />
+      <Industries />
     </div>
   );
 }

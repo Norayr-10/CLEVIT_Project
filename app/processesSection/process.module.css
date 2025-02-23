@@ -75,7 +75,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fbf8ff;
+  background-color: #eadcfc;
   z-index: 100;
   transition: transform 0.6s ease;
 }
