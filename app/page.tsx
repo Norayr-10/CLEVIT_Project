@@ -7,6 +7,7 @@ import BodyTitle from "./bodyTitle/component";
 import Technologies from "./ourTechnologies/component";
 import Process from "./processesSection/process";
 import Industries from "./industries/industries";
+import App from "./Slider/slider";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Technologies />
       <Process />
       <Industries />
+      <App />
     </div>
   );
 }
