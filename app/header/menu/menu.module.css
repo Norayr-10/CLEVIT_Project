@@ -13,6 +13,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+
 }
 
 .logo {
@@ -53,7 +54,6 @@
   align-items: center;
   justify-content: space-evenly;
   border-radius: 8px;
-
 }
 
 .bar_btn:hover {

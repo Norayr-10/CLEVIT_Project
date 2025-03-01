@@ -44,61 +44,115 @@ const Footer: FC = () => {
           </div>
           <div className={style["second"]}>
             <h2 className={style["title"]}>Company</h2>
-            <Link href={""} className={style["second_links"]}>
+            <Link
+              href={"https://www.clevit.io/about-us"}
+              className={style["second_links"]}
+            >
               About Us
             </Link>
-            <Link href={""} className={style["second_links"]}>
+            <Link
+              href={"https://www.clevit.io/services"}
+              className={style["second_links"]}
+            >
               Services
             </Link>
-            <Link href={""} className={style["second_links"]}>
+            <Link
+              href={"https://www.clevit.io/portfolio"}
+              className={style["second_links"]}
+            >
               portfolio
             </Link>
-            <Link href={""} className={style["second_links"]}>
+            <Link
+              href={"https://www.clevit.io/#technologies"}
+              className={style["second_links"]}
+            >
               Technologies
             </Link>
-            <Link href={""} className={style["second_links"]}>
+            <Link
+              href={"https://www.clevit.io/blogs"}
+              className={style["second_links"]}
+            >
               Blog
             </Link>
-            <Link href={""} className={style["second_links"]}>
+            <Link
+              href={"https://www.clevit.io/contact-us"}
+              className={style["second_links"]}
+            >
               Contact Us
             </Link>
           </div>
           <div className={style["third"]}>
             <h2 className={style["title"]}>Services</h2>
-            <Link href={""} className={style["second_links"]}>
+            <Link
+              href={"https://www.clevit.io/services/web-development"}
+              className={style["second_links"]}
+            >
               Web Development
             </Link>
-            <Link href={""} className={style["second_links"]}>
+            <Link
+              href={"https://www.clevit.io/services/mobile-app-development"}
+              className={style["second_links"]}
+            >
               Mobile App Development
             </Link>
-            <Link href={""} className={style["second_links"]}>
+            <Link
+              href={"https://www.clevit.io/services/devops"}
+              className={style["second_links"]}
+            >
               DevOps
             </Link>
-            <Link href={""} className={style["second_links"]}>
+            <Link
+              href={"https://www.clevit.io/services/ai-integration"}
+              className={style["second_links"]}
+            >
               AI Integration
             </Link>
-            <Link href={""} className={style["second_links"]}>
+            <Link
+              href={"https://www.clevit.io/services/machine-learning"}
+              className={style["second_links"]}
+            >
               Machine Learning Development
             </Link>
-            <Link href={""} className={style["second_links"]}>
+            <Link
+              href={"https://www.clevit.io/services/quality-assurance"}
+              className={style["second_links"]}
+            >
               Quality Assurance
             </Link>
-            <Link href={""} className={style["second_links"]}>
+            <Link
+              href={"https://www.clevit.io/services/technical-assessment"}
+              className={style["second_links"]}
+            >
               Technical Assessment
             </Link>
-            <Link href={""} className={style["second_links"]}>
+            <Link
+              href={"https://www.clevit.io/services/maintenance-support"}
+              className={style["second_links"]}
+            >
               Support & Maintenance
             </Link>
-            <Link href={""} className={style["second_links"]}>
+            <Link
+              href={"https://www.clevit.io/services/outstaffing"}
+              className={style["second_links"]}
+            >
               Outstaffing
             </Link>
-            <Link href={""} className={style["second_links"]}>
+            <Link
+              href={"https://www.clevit.io/services/project-management"}
+              className={style["second_links"]}
+            >
               Project Management
             </Link>
-            <Link href={""} className={style["second_links"]}>
+            <Link
+              href={"https://www.clevit.io/services/ui-ux-design"}
+              className={style["second_links"]}
+            >
               UI/UX Design
             </Link>
-            <Link href={""} className={style["second_links"]}>
+            <Link
+              href={"https://www.clevit.io/services/digital-marketing"}
+              className={style["second_links"]}
+            >
               Digital Marketing
             </Link>
           </div>
@@ -174,75 +228,142 @@ const Footer: FC = () => {
                 </p>
               </div>
               <div className={style["apps"]}>
-                <Link href={""} className={style["links"]}>
+                <Link
+                  href={
+                    "https://www.linkedin.com/company/clevit-soft/mycompany/"
+                  }
+                  className={style["links"]}
+                >
                   <FaLinkedin />
                 </Link>
-                <Link href={""} className={style["links"]}>
+                <Link
+                  href={"https://www.facebook.com/clevitdev/"}
+                  className={style["links"]}
+                >
                   <FaFacebook />
                 </Link>
-                <Link href={""} className={style["links"]}>
+                <Link
+                  href={
+                    "https://www.instagram.com/clevit_llc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
+                  }
+                  className={style["links"]}
+                >
                   <FaInstagram />
                 </Link>
               </div>
             </div>
             <div className={style["second"]}>
               <h2 className={style["title"]}>Company</h2>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/about-us"}
+                className={style["second_links"]}
+              >
                 About Us
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services"}
+                className={style["second_links"]}
+              >
                 Services
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/portfolio"}
+                className={style["second_links"]}
+              >
                 portfolio
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/#technologies"}
+                className={style["second_links"]}
+              >
                 Technologies
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/blogs"}
+                className={style["second_links"]}
+              >
                 Blog
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/contact-us"}
+                className={style["second_links"]}
+              >
                 Contact Us
               </Link>
             </div>
 
             <div className={style["third"]}>
               <h2 className={style["title"]}>Services</h2>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/web-development"}
+                className={style["second_links"]}
+              >
                 Web Development
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/mobile-app-development"}
+                className={style["second_links"]}
+              >
                 Mobile App Development
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/devops"}
+                className={style["second_links"]}
+              >
                 DevOps
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/ai-integration"}
+                className={style["second_links"]}
+              >
                 AI Integration
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/machine-learning"}
+                className={style["second_links"]}
+              >
                 Machine Learning Development
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/quality-assurance"}
+                className={style["second_links"]}
+              >
                 Quality Assurance
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/technical-assessment"}
+                className={style["second_links"]}
+              >
                 Technical Assessment
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/maintenance-support"}
+                className={style["second_links"]}
+              >
                 Support & Maintenance
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/outstaffing"}
+                className={style["second_links"]}
+              >
                 Outstaffing
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/project-management"}
+                className={style["second_links"]}
+              >
                 Project Management
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/ui-ux-design"}
+                className={style["second_links"]}
+              >
                 UI/UX Design
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/digital-marketing"}
+                className={style["second_links"]}
+              >
                 Digital Marketing
               </Link>
             </div>
@@ -324,13 +445,22 @@ const Footer: FC = () => {
                 </p>
               </div>
               <div className={style["apps"]}>
-                <Link href={""} className={style["links"]}>
+                <Link
+                  href={"https://www.linkedin.com/company/clevitdevelopment/"}
+                  className={style["links"]}
+                >
                   <FaLinkedin />
                 </Link>
-                <Link href={""} className={style["links"]}>
+                <Link
+                  href={"https://www.facebook.com/clevitdev/"}
+                  className={style["links"]}
+                >
                   <FaFacebook />
                 </Link>
-                <Link href={""} className={style["links"]}>
+                <Link
+                  href={"https://www.instagram.com/clevit_llc/"}
+                  className={style["links"]}
+                >
                   <FaInstagram />
                 </Link>
               </div>
@@ -340,61 +470,115 @@ const Footer: FC = () => {
           <div className={style["body"]}>
             <div className={style["second"]}>
               <h2 className={style["title"]}>Company</h2>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/about-us"}
+                className={style["second_links"]}
+              >
                 About Us
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services"}
+                className={style["second_links"]}
+              >
                 Services
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/portfolio"}
+                className={style["second_links"]}
+              >
                 portfolio
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/#technologies"}
+                className={style["second_links"]}
+              >
                 Technologies
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/blogs"}
+                className={style["second_links"]}
+              >
                 Blog
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/contact-us"}
+                className={style["second_links"]}
+              >
                 Contact Us
               </Link>
             </div>
             <div className={style["third"]}>
               <h2 className={style["title"]}>Services</h2>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/web-development"}
+                className={style["second_links"]}
+              >
                 Web Development
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/mobile-app-development"}
+                className={style["second_links"]}
+              >
                 Mobile App Development
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/devops"}
+                className={style["second_links"]}
+              >
                 DevOps
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/ai-integration"}
+                className={style["second_links"]}
+              >
                 AI Integration
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/machine-learning"}
+                className={style["second_links"]}
+              >
                 Machine Learning Development
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/quality-assurance"}
+                className={style["second_links"]}
+              >
                 Quality Assurance
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/technical-assessment"}
+                className={style["second_links"]}
+              >
                 Technical Assessment
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/maintenance-support"}
+                className={style["second_links"]}
+              >
                 Support & Maintenance
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/outstaffing"}
+                className={style["second_links"]}
+              >
                 Outstaffing
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/project-management"}
+                className={style["second_links"]}
+              >
                 Project Management
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/ui-ux-design"}
+                className={style["second_links"]}
+              >
                 UI/UX Design
               </Link>
-              <Link href={""} className={style["second_links"]}>
+              <Link
+                href={"https://www.clevit.io/services/digital-marketing"}
+                className={style["second_links"]}
+              >
                 Digital Marketing
               </Link>
             </div>
