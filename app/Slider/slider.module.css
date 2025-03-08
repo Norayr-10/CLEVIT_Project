@@ -26,6 +26,7 @@
   flex-direction: row;
 }
 .content {
+  padding-left: 2%;
   width: 50%;
   height: 100%;
   display: flex;
@@ -319,13 +320,12 @@
     font-size: 18px;
     height: 20%;
   }
-.secound_content {
-  font-size: 21px;
-  line-height: 40px;
+  .secound_content {
+    font-size: 21px;
+    line-height: 40px;
+  }
 
-}
-
-.First_content {
+  .First_content {
     font-family: Work Sans, sans-serif;
     font-weight: 500;
     font-size: 16px;

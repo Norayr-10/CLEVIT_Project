@@ -90,6 +90,7 @@
 .description {
   width: 96%;
   height: 60%;
+  padding-left: 10px;
 }
 
 .footer {
@@ -99,6 +100,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
+  padding-left: 10px;
 }
 
 .footer h5 {
@@ -155,8 +157,6 @@
 }
 
 @media (max-width: 840px) {
- 
-  
   .box {
     display: block;
     width: 90%;
